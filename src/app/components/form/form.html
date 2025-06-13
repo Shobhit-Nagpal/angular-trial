@@ -1,0 +1,9 @@
+<main>
+  <p>Framework: {{ favouriteFramework }}</p>
+  <label for="framework">
+    Fav Framework:
+    <input id="framework" type="text" [(ngModel)]='favouriteFramework' />
+  </label>
+
+  <button (click)='showFramework()'>Show Framework</button>
+</main>

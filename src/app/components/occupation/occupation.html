@@ -1,0 +1,10 @@
+<main>
+  <h1>Lmfaooooo</h1>
+  <h3>{{ occupation() }}</h3>
+
+  <button (click)="emit()">Emit</button>
+
+  <button (click)="getUsers()">Show Users</button>
+
+  @for (user of users ; track user.id) { {{ user.name }} }
+</main>
